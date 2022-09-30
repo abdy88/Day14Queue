@@ -4,20 +4,23 @@ public class QueueOperations {
 
 	LinkedListOperations obj1 = new LinkedListOperations();
 	
-	void enqueue(int data1)
+	public void enqueue(int data1)
 	{
-		obj1.insertFirst(data1);
+		obj1.insertLast(data1);
 		
 		}
 	
-	 void dequeue()
-	{
-		obj1.removeFirst();
-		
-	}
+	
+	 public void dequeue() {
+	 
+//		 while (obj1.head!=null)
+		{
+			obj1.removeFirst();
+		}
+	 					}
 	
 	
-	 void display1()
+	 public void display1()
 	{
 		
 		obj1.display();

@@ -14,7 +14,16 @@ public class Main {
 		obj2.enqueue(30);
 		obj2.enqueue(70);
 		obj2.display1();
-	
+		
+//		UC2
+		System.out.println("dequeue from the beginning");
+		obj2.dequeue();
+		obj2.display1();
+		System.out.println("again dequeue from the beginning");
+		obj2.dequeue();
+		obj2.display1();
+		
+		System.out.println("----End of Program-----");
 	
 	}
 	
